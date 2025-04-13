@@ -76,7 +76,7 @@ optimizer = AdamW(model.parameters(), lr=2e-5)
 criterion = nn.CrossEntropyLoss()
 
 # ------------------ 5. Training Loop ------------------ #
-EPOCHS = 50
+EPOCHS = 10
 
 for epoch in range(EPOCHS):
     model.train()
