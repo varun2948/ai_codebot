@@ -1,0 +1,41 @@
+code,label
+"def add(a, b): return a + b",0
+"for i in range(100): print(i)",0
+"import os; os.system('rm -rf /')",1
+"eval(input('Enter your code: '))",1
+"while True: pass",1
+"def safe_divide(a, b): return a / b if b != 0 else None",0
+"password = input('Enter password: ')",1
+"with open('file.txt', 'r') as f: data = f.read()",0
+"for i in range(len(arr)): if arr[i] == x: return i",0
+"for i in range(len(arr)): print(i, arr[i])",0
+"def factorial(n): return 1 if n==0 else n * factorial(n-1)",0
+"list = []; for i in range(10): list.append(i)",0
+"try: f = open('data.txt')\nexcept: pass",1
+"exec('print(2 + 2)')",1
+"x = x + 1",0
+"def max_val(a, b): if a > b: return a else: return b",1
+"import subprocess; subprocess.call('ls')",1
+"for i in range(0, len(arr), 2): print(arr[i])",0
+"f = open('file.txt'); content = f.read()",1
+"def greet(name): print(f'Hello, {name}')",0
+"def sum_list(lst): return sum(lst)",0
+"import shutil; shutil.rmtree('/')",1
+"for i, val in enumerate(arr): print(i, val)",0
+"def is_even(n): return n % 2 == 0",0
+"import pickle; pickle.loads(data)",1
+"with open('config.json', 'w') as f: json.dump(config, f)",0
+"def reverse_string(s): return s[::-1]",0
+"import os; os.remove('important_file.txt')",1
+"try: result = 10 / 0\nexcept ZeroDivisionError: result = None",0
+"def square(n): return n * n",0
+"import sys; sys.exit(1)",1
+"while x < 10: x += 1",0
+"def read_file(filepath): with open(filepath, 'r') as f: return f.read()",0
+"import base64; exec(base64.b64decode(encoded_code))",1
+"for key, value in my_dict.items(): print(key, value)",0
+"def fibonacci(n): return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)",0
+"import os; os.system('shutdown -h now')",1
+"try: conn = sqlite3.connect('database.db')\nexcept sqlite3.Error as e: print(e)",0
+"def is_palindrome(s): return s == s[::-1]",0
+"import ctypes; ctypes.string_at(0)",1
