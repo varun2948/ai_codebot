@@ -24,7 +24,7 @@ tokenizer = RobertaTokenizer.from_pretrained("microsoft/codebert-base")
 # Load model
 model = CodeReviewClassifier()
 model.load_state_dict(
-    torch.load("codebert_review_model.pt", map_location=torch.device("cpu"))
+    torch.load("codebert_review_model_balanced.pt", map_location=torch.device("cpu"))
 )
 model.eval()
 
